@@ -66,13 +66,13 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.5rem 0 0 0;
     background-color: var(--primary-color);
     text-align: center;
 }
 
 footer img{
-    padding: 1rem 1.5rem;
+    padding: 0.5rem;
     color: var(--secondary-color);
     width: 1.1rem;
 }
