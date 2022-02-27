@@ -42,7 +42,7 @@ body{
 }
 
 .container{
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
 }
@@ -52,7 +52,7 @@ body{
     text-align: center;
     font-family: 'Satisfy', cursive;
     font-size: large;
-    width: 500px;
+    width: 90%;
     height: 10vh;
     padding: 1rem;
     border: 1px solid var(--secondary-color);
@@ -75,7 +75,7 @@ body{
 .txt-output{
     color: var(--secondary-color);
     font-size: large;
-    width: 500px;
+    width: 90%;
     height: 10vh;
     padding: 1rem;
     border: 1px solid var(--secondary-color);
