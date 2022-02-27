@@ -7,46 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Translator</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- <style>
-        textarea {
-            width: 80%;
-            height: 10rem;
-            display: block;
-            padding: 2rem;
-            margin: 1rem;
-        }
-        #output{
-            border: 1px solid black;
-            width: 80%;
-            height: 10rem;
-            padding: 2rem;
-            margin: 1rem;
-        }
-    </style> -->
 </head>
 
 <body>
-    <nav>
-        <div class="heading">Banana Talk</div>
+    <nav class="nav-bar">
+        <div class="nav-brand">
+            Speak Banana
+        </div>
     </nav>
 
-    <main>
-        <textarea id="txt-input" placeholder="Enter your sentence in English here "></textarea>
-        <button id="btn-translate">Translate to Banana</button>
-        <div>Translation will come here 👇</div>
-        <div id="output"></div>
-    </main>
+    <div class="hero">
+        <img class="hero-image" src="minion.jpg" alt="">
+        <h1 class="hero-heading">Banana <span class="span-translator">Translator</span></h1>
+    </div>
 
-
-    <footer>
-        <div class="banana-desc">
-            <p>Convert from English to Minion speak.</p>
-            <p> This language is spoken by the minions in Despicable Me.</p>
+    <div class="container">
+        <textarea id="txt-input" class="txt-input" placeholder="Enter your sentence in English here"></textarea>
+        <div class="btn-container">
+            <button id="btn-translate" class="btn-translate">Translate to Banana</button>
         </div>
-        <div class="copyright">
-            © 2021 Fazil's Minions Translator
+        <p class="output">output 👇</p>
+        <div id="output" class="txt-output"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-about">
+            <p>Convert from English to Minion speak.
+                <br>
+                This language is spoken by the minions in Despicable Me.
+            </p>
+            <p>© 2022 Fazil's Minion Translator</p>
         </div>
     </footer>
+
+
+
+
+
+
+
+
+
 
     <script src="app.js"></script>
 </body>

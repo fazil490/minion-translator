@@ -1,77 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-:root{
-    --primary-color: #F6D167;
-    --secondary-color: #002e53;
-}
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Satisfy', cursive;
     margin: 0;
 }
 
-nav{
+:root{
+    --primary-color: #fff176;
+    --secondary-color: #1565c0;
+}
+
+.nav-bar{
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    text-align: center;
+    height: 3rem;
     padding: 1rem;
+}
+
+.nav-brand{
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+.hero{
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-image{
+    padding: 1rem;
+    width: 100px;
+}
+
+.hero-heading{
+    color: var(--secondary-color);
+}
+
+.span-translator{
+    color: var(--primary-color);
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
     text-align: center;
 }
 
-main{
-    margin: auto;
-    max-width: 600px;
-    padding: 1rem;
-}
-
-.heading{
-    font-size: 2rem;
-    padding: 1rem;
-}
-
-#txt-input{
-    padding: 1rem;
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    min-height: 20vh;
-    max-width: 130vh;
-    max-height: 214px;
-    margin-top: 2rem;
+.txt-input{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: 'Satisfy', cursive;
     font-size: large;
+    width: 500px;
+    height: 10vh;
+    padding: 1rem;
+    border: 1px solid var(--secondary-color);
 }
 
-#btn-translate{
+.btn-translate{
+    margin: 1rem;
     background-color: var(--primary-color);
+    padding: 1rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.1rem;
     color: var(--secondary-color);
     border: none;
-    padding: 1rem 2rem;
-    margin: 1rem 0;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: large;
 }
 
-#output{
-    padding: 1rem;
-    margin-top: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-    min-height: 15vh;
-    max-height: 20vh;
-    border: 1px solid var(--secondary-color);
-    margin-bottom: 1rem;
-}
-
-footer{
+.output{
+    font-size: x-large;
     color: var(--secondary-color);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 0.5rem;
+}
+.txt-output{
+    color: var(--secondary-color);
+    font-size: large;
+    width: 500px;
+    height: 10vh;
+    padding: 1rem;
+    border: 1px solid var(--secondary-color);
+    margin: 1rem auto auto auto;
+}
+
+.footer{
     background-color: var(--primary-color);
     text-align: center;
+    color: var(--secondary-color);
+    margin-top: 2rem;
 }
 
-.banana-desc{
-    margin: auto;
-    max-width: 40rem;
+.footer-about{
+    font-size: large;
+    padding: 1rem;
 }
