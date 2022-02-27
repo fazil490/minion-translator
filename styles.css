@@ -66,13 +66,12 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 0.5rem 0 0 0;
+    padding: 0.5rem;
     background-color: var(--primary-color);
     text-align: center;
 }
 
-footer img{
-    padding: 0.5rem;
-    color: var(--secondary-color);
-    width: 1.1rem;
+.banana-desc{
+    margin: auto;
+    max-width: 40rem;
 }
